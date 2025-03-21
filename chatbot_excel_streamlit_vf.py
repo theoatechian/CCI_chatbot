@@ -5,12 +5,16 @@ from rapidfuzz import fuzz, process
 # Fond dégradé bleu
 st.markdown("""
     <style>
-    .stApp {
+    /* Fond dégradé général */
+    [data-testid="stAppViewContainer"] {
         background: linear-gradient(135deg, #ffffff, #d0e7ff);
-        border : black;
         background-attachment: fixed;
+        padding: 20px;
+        border: 5px solid black;
+        border-radius: 10px;
+        box-sizing: border-box;
     }
-    </style>
+</style>
     """, unsafe_allow_html=True)
 
 # Logo CCI
