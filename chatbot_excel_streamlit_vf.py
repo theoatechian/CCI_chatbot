@@ -58,8 +58,18 @@ if user_input:
         st.image("avatar.jpg", width=50)
 
     with col2:
-        st.markdown(f"""
-        <div style='background-color: #ffffff10; padding: 15px; border-radius: 10px; color: black;'>
-            {response}
-        </div>
-        """, unsafe_allow_html=True)
+       st.markdown(
+    f"""
+    <div style='
+        background-color: #ffffff10;
+        padding: 15px;
+        border-radius: 10px;
+        color: black;
+        border: 1px solid black;
+        margin-bottom: 10px;
+    '>
+        {response}
+    </div>
+    """,
+    unsafe_allow_html=True
+       )
