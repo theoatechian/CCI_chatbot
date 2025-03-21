@@ -24,7 +24,7 @@ with col2:
     st.image("logo.jpg", width=40) 
     
 # Titre
-st.title("💬 Chatbot CCI")
+st.title("🤖 Chatbot CCI")
 
 # Question
 col1, col2 = st.columns([1, 3])  
