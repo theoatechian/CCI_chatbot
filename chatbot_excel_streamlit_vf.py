@@ -6,7 +6,7 @@ from rapidfuzz import fuzz, process
 st.markdown("""
     <style>
     .stApp {
-        background: linear-gradient(135deg, #0f2027, #203a43, #000000);
+        background: linear-gradient(135deg, #ffffff, #d0e7ff);
         background-attachment: fixed;
     }
     </style>
