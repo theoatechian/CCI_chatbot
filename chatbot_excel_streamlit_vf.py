@@ -7,7 +7,7 @@ st.markdown("""
     <style>
     /* Fond dégradé général */
     [data-testid="stAppViewContainer"] {
-        background: linear-gradient(135deg, #d0e6ff, #e6d9ff);
+        background: linear-gradient(135deg, #d0e6ff, #0000ff);
         background-attachment: fixed;
         padding: 20px;
         border: 5px solid black;
