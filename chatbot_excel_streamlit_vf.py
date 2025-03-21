@@ -46,7 +46,7 @@ def get_fuzzy_response(user_input):
         response = df.iloc[index]['Réponse']
         return f"La solution à votre problème \"{best_match}\"  est : {response}"
     else:
-        return "Désolé, je ne suis pas sûr de comprendre votre question, veuillez la reformuler ou contacter directement la DSI au mail suivant: mail@exemple.fr"
+        return "Désolé, je ne suis pas sûr de comprendre votre question, veuillez la reformuler ou contacter directement la DSI au mail suivant: cci-dsi@mail.fr"
 
 # Affichage des réponses
 if user_input:
