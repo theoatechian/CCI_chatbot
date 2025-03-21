@@ -54,7 +54,7 @@ if user_input:
 
     with col2:
         st.markdown(f"""
-        <div style='background-color: #ffffff10; padding: 15px; border-radius: 10px; color: white;'>
+        <div style='background-color: #ffffff10; padding: 15px; border-radius: 10px; color: black;'>
             {response}
         </div>
         """, unsafe_allow_html=True)
