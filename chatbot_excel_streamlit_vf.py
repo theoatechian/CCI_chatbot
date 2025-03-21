@@ -7,6 +7,7 @@ st.markdown("""
     <style>
     .stApp {
         background: linear-gradient(135deg, #ffffff, #d0e7ff);
+        border : black;
         background-attachment: fixed;
     }
     </style>
